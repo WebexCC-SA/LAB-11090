@@ -86,21 +86,19 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
- # - Welcome: welcome.md
-  #- Lab:
-      # - Overview: overview.md
-      # - Lab 1 - Getting Started: lab1_getting_started.md
-      # - Conclusion: conclusion.md
-  #- Topologies: topologies.md
-  #- How to use this guide:
-   #     - Initial Setup: howToUse/initialSetup.md
-   #     - Using the tool after the initial setup: howToUse/postInitial.md
-    #    - Publishing your changes: howToUse/syncChanges.md
-   #   - Useful Tools and Resources: howToUse/usefulTools.md
-   #   - Importing from Word (docx): howToUse/importingFromWord.md
-      # - Styling and Advanced Features:
-      #   - Custom Features: howToUse/customFeatures.md
-      #   - Custom Admonitions: howToUse/admonition.md
-      # - Looking for Inspiration: howToUse/previousEventLabs.md
-      # - Before the Event: howToUse/beforeTheEvent.md
-  - Lab Documents: LabDocuments.md
+  - About this Lab:
+    - Overview and Objectives: lab-overview-objectives.md
+    - Customer Scenario: example-customer-scenario.md
+    - Getting Started: getting-started-with-your-environment.md
+  - Lab Activities:
+    - Lab 1 - Organization Settings: lab-1-organization-settings.md
+    - Lab 2 - Location Settings: lab-2-location-settings.md
+    - Lab 3 - Users: lab-3-users.md
+    - Lab 4 - Devices and Workspaces: lab-4-devices-and-workspaces.md
+    - Lab 5 - Calling Features: lab-5-configuring-calling-features.md
+    - Lab 6 - Creating Queues: lab-6-creating-queues.md
+    - Lab 7 - Main Number Auto Attendant: lab-7-create-the-aa-for-the-main-number.md
+    - Lab 8 - User and Device Settings: lab-8-user-and-device-settings.md
+    - Lab 9 - Test Call Routing and Features: lab-9-test-main-call-routing-and-features.md
+  - Resources:
+    - Useful Links: useful-links.md
