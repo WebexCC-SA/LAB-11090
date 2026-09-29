@@ -5,7 +5,7 @@ VitaCrunch Foods needs a calling solution without additional equipment that rema
 ## Basic Customer Information
 
 - **Customer:** VitaCrunch Foods
-- **Location:** Durham, North Carolina
+- **Location:** San Jose, California
 - **Business vertical:** Manufacturer
 - **About:** VitaCrunch Foods creates fun, flavorful snacks with wholesome ingredients. Its vibrant flavors and satisfying crunch make healthier snacking easy and enjoyable for busy people and families.
 
