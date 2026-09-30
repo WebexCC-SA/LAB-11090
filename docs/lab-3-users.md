@@ -14,7 +14,7 @@ Assign Webex Calling Professional license and assign a phone number and extensio
 - Number: Unused number
 - Extension:101
 
-Repeat the previous steps for the following users, but do not assign a phone number.
+**2. Repeat the previous steps for the following users, but do not assign a phone number.**
 
 |  |  |
 | --- | --- |
