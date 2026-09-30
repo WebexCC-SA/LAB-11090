@@ -1,5 +1,7 @@
 # Example Customer Scenario
 
+![VitaCrunch Foods logo](assets/vitacrunchlogo.png)
+
 VitaCrunch Foods needs a calling solution without additional equipment that remains flexible if employees need to work from home.
 
 ## Basic Customer Information
