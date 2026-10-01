@@ -25,7 +25,6 @@ Change the Line Key Configuration on Ricardo Filice’s device
 - Line Key Configuration
     - Order 2: Mode Management
     - Order 3: Monitored line
-    - Order 4: Monitored line
 - Save
 
 **4. Verify the configuration of Ricardo Filice’s MPP now shows the operating mode and monitored lines.**
@@ -37,7 +36,11 @@ Layout should show the following:
 - Order 1: Ricardo Filice (Primary Line)
 - Order 2: Sales Queue (Mode Management)
 - Order 3: Stefan Mauk (Monitored Line)
-- Order 4: Eric Steele (Monitored Line)
+
+**5. Activate Ricardo's 9871 phone**
+
+- Use the activation code you saved from Lab 4 to activate the phone at your lab pod
+- Verify you can see the lines configured above
 
 **Help Article Links**
 

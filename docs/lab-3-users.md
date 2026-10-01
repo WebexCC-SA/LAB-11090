@@ -12,7 +12,7 @@ Assign Webex Calling Professional license and assign a phone number and extensio
     - Webex Calling Professional
 - Location: VitaCrunch
 - Number: Unused number
-- Extension:101
+- Extension: 101
 
 **2. Repeat the previous steps for the following users, but do not assign a phone number.**
 

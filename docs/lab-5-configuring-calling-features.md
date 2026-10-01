@@ -8,7 +8,7 @@ In this lab, you will learn how to create a voicemail group, operating modes, an
 
 - Create a voicemail group
 - Location: VitaCrunch
-- Name: VC\_VmailGroup
+- Name: VCVmailGroup
 - Extension: 600
 - Passcode: 258011
 
@@ -20,7 +20,7 @@ Services > Calling > Features > Operating Mode > Add New
 - Location: VitaCrunch
 - Name: EmergencyClosure
 - No schedule
-- Forward destination: PR\_VmailGroup Ext 600
+- Forward destination: VCVmailGroup Ext 600
 
 **3. Some call routings require announcements.**
 
@@ -30,14 +30,25 @@ Services > Calling > Features > Operating Mode > Add New
     - Level: Location
     - Location: VitaCrunch
     - Label: Welcome Factory
-    - Text: Welcome to VitaCrunch Foods Factory, an agent will be with you soon.
-    - Generate and listen to the file before saving.
+    - Text:
+
+        ```text
+        Welcome to VitaCrunch Foods Logistics, a representative will be with you soon.
+        ```
+
+        - Generate and listen to the file before saving.
+  
 - Create a greeting for the VitaCrunch Foods Logistics queue
     - Level: Location
     - Location: VitaCrunch
     - Label: Welcome Logistics
-    - Text: Welcome to VitaCrunch Foods Logistics, a representative will be with you soon.
-    - Generate and listen to the file before saving.
+    - Text:
+
+        ```text
+        Welcome to VitaCrunch Foods Logistics, a representative will be with you soon.
+        ```
+
+        - Generate and listen to the file before saving.
 
 **4. The Factory needs an internal Hunt Group.**
 

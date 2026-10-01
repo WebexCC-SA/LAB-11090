@@ -17,29 +17,38 @@ Create an auto attendant for the main number
 - Holiday Schedule: None
 - Business Hours Menu
     - Disable extension level dialing
-    - Option 1: Transfer without prompt: Extension 201
-    - Option 2: Transfer with prompt: Extension 203
-    - Option 3: Transfer with prompt: Extension 204
-    - Option 4: Transfer to operator: Ricardo Filice
+    - Option 1: Transfer without prompt: Extension 201 Sales Queue
+    - Option 2: Transfer with prompt: Extension 203 Factory HG
+    - Option 3: Transfer with prompt: Extension 204 Logistics HG
+    - Option 4: Transfer to operator: Extension 101 Ricardo Filice
     - Option 5: Repeat
     - Option 6: Exit
     - Menu timeout and repeat configuration
         - Repeat on no input: 1 time
-        - Action after all repeat attempts: Transfer call to operator
-      - Operator Ricardo Filice
+        - Action after all repeat attempts: Transfer call to operator: Extension 101 Ricardo Filice
 - After Hours Menu
-    - Option 1: Transfer without prompt: – Extension 600 (VmailGroup)
+    - Option 1: Transfer without prompt: – Extension 600 VCVmailGroup
     - Menu timeout and repeat configuration
         - Repeat on no input: 1 time
         - Action after all repeat attempts: End the call
 - Business Hours Greeting
     - Custom Greeting: Use text-to-speech
     - Label: AADay
-    - Thank you for calling VitaCrunch. Please use the following menu to direct your call. Press 1 for Sales. Press 2 for the factory. Press 3 for Logistics. Press 4 or wait in the line to talk with an operator. Press 5 to Repeat menu. Press 6 to Exit menu.
+    - Text:
+
+        ```text
+        Thank you for calling VitaCrunch. Please use the following menu to direct your call. Press 1 for Sales. Press 2 for the factory. Press 3 for Logistics. Press 4 or wait in the line to talk with an operator. Press 5 to Repeat menu. Press 6 to Exit menu.
+        ```
+
 - After Hours Greeting
     - Custom Greeting: Use text-to-speech
     - Label: AANight
-    - Thank you for calling VitaCrunch. Our offices are closed. Please call back during our business hours or press 1 to leave a voicemail.
+    - Text:
+
+        ```text
+        Thank you for calling VitaCrunch. Our offices are closed. Please call back during our business hours or press 1 to leave a voicemail.
+        ```
+
 
 **Help Article Links**
 

@@ -17,7 +17,7 @@ Create the Sales Call Queue
 - External caller ID phone number: Direct Line
 - Routing: Priority Based – Longest Idle
 - Overflow Settings:
-    - Transfer to phone number: Extension 600 PR\_VmailGroup
+    - Transfer to phone number: Extension 600 VCVmailGroup
     - Enable overflow after 60 seconds
 - Welcome Message:
     - Welcome Message is mandatory: Enabled
@@ -39,7 +39,7 @@ Select the Sales Queue to configure additional features.
 
 - Queue Policies - Night Service
     - Enable Night Service:
-    - Transfer to Phone number: Extension 600 (VmailGroup)
+    - Transfer to Phone number: Extension 600 VCVmailGroup
     - Business Hours: Open Hours schedule
 - Queue Policies - Stranded Calls
     - Night Service: selected
