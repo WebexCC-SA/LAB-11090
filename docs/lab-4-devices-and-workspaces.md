@@ -21,11 +21,13 @@ Create a new workspace with the corresponding device and services. Devices will 
 - Workspace name: Conference Room A
 - Location: VitaCrunch
 - Device: Cisco Desk Phone: Cisco 9811 – By activation code
+    - You will not activate this device
 - Services
     - Calling – Cisco Webex Calling
     - Disable Hot Desking Sign in
     - Common area workspace
     - Extension: 301
+
 
 **Help Article Links**
 
